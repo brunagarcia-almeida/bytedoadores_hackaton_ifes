@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+}
+
+.bc {
+    background-color: #E5F6EA;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.tj {
+    text-align: justify;
+}
+
+.sublinhado {
+    text-decoration: underline wavy #E5F6EA;
+}
+
+.col-footer {
+    width: 50%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+.dados-contato {
+    list-style: none;
+}
+
+.copyright {
+    font-family: 'DM Sans', sans-serif;
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 10px 0 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .separador-vertical {
+        border-right: #353535 1px solid;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .separador-horizontal {
+        border-bottom: #353535 1px solid;
+    }
+
+    .img-sm,
+    .p-sm {
+        width: 100%;
+    }
+
+    .quebra {
+        position: relative;
+    }
+}
