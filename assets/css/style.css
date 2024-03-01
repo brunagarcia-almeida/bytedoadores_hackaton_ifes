@@ -1,4 +1,4 @@
-body {
+body, table {
     width: 100%;
 }
 
@@ -52,7 +52,4 @@ body {
         width: 100%;
     }
 
-    .quebra {
-        position: relative;
-    }
 }
